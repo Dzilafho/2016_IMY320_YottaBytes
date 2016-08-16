@@ -16,17 +16,21 @@ Technologies to be used <br />
 •	Google Calendar <br />
 
 #Timeframe 
-Description of Work						Start and End Dates
-Phase One	(Website alpha/Demo website)		8th August till 29th August
-Phase Two	(Final website & Demo mobile app)	30th August till 19th September
-Phase Three (Final mobile app)				20th September till 10th October
-Phase Four (Products Presentation)			TBA
+
+Description of Work						|	Start and End Dates
+-------------------------------------------------------	|	----------------------------------------
+Phase One	(Website alpha/Demo website)		|	8th August till 29th August
+Phase Two	(Final website & Demo mobile app)	|	30th August till 19th September
+Phase Three (Final mobile app)				|	20th September till 10th October
+Phase Four (Products Presentation)			|	TBA
 
 
 #Key Stakeholders 
-Client        		Chowers (NPO) <br />
-Sponsor			None <br />
-Project manager	Yan Wong <br />
+Role				| 	Person
+------------------------	| ------------------------------
+Client:        		|	Chowers (NPO) 
+Sponsor:			|	None 
+Project manager:	|	Yan Wong 
 
 
 #Monitoring and Evaluation 
