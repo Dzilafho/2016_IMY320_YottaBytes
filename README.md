@@ -6,14 +6,14 @@ We are members of an NPO which is focused on creating outreach programs to rural
 
 #Scope 
 We have to develop an efficient website which will be able to handle sophisticated services such as multiple users being able to login to the system and use it for tenacities such as adding newsletters, adding events (which will be on a calendar), and also adding members to the system so that they can have privileges to add articles to the website and perform other functions available to them. There will also be an android mobile app for the users of the system which will basically have the same services as the website.
-Technologies to be used
-•	HTML 5 (Fundamentals)
-•	JavaScript (Fundamentals)
-•	Motion UI (Transitions and animations)
-•	Foundation (Responsive web apps)
-•	Angular JS
-•	Pure.CSS
-•	Google Calendar
+Technologies to be used <br />
+•	HTML 5 (Fundamentals) <br />
+•	JavaScript (Fundamentals) <br />
+•	Motion UI (Transitions and animations) <br />
+•	Foundation (Responsive web apps) <br />
+•	Angular JS <br />
+•	Pure.CSS <br />
+•	Google Calendar <br />
 
 #Timeframe 
 Description of Work						Start and End Dates
@@ -24,11 +24,11 @@ Phase Four (Products Presentation)			TBA
 
 
 #Key Stakeholders 
-Client        		Chowers (NPO)
-Sponsor			None
-Project manager	Yan Wong
+Client        		Chowers (NPO) <br />
+Sponsor			None <br />
+Project manager	Yan Wong <br />
 
 
 #Monitoring and Evaluation 
-•	The project is hosted and publicly accessible on this repository
-•	Major changes will be presented to the manager at the end of each phase.
+•	The project is hosted and publicly accessible on this repository. <br />
+•	Major changes will be presented to the manager at the end of each phase. <br />
