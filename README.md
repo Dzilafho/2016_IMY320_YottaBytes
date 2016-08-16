@@ -6,7 +6,8 @@ We are members of an NPO which is focused on creating outreach programs to rural
 
 #Scope 
 We have to develop an efficient website which will be able to handle sophisticated services such as multiple users being able to login to the system and use it for tenacities such as adding newsletters, adding events (which will be on a calendar), and also adding members to the system so that they can have privileges to add articles to the website and perform other functions available to them. There will also be an android mobile app for the users of the system which will basically have the same services as the website.
-Technologies to be used <br />
+
+#Technologies to be used <br />
 •	HTML 5 (Fundamentals) <br />
 •	JavaScript (Fundamentals) <br />
 •	Motion UI (Transitions and animations) <br />
@@ -28,9 +29,9 @@ Phase Four (Products Presentation)			|	TBA
 #Key Stakeholders 
 Role				| 	Person
 ------------------------	| ------------------------------
-Client:        		|	Chowers (NPO) 
-Sponsor:			|	None 
-Project manager:	|	Yan Wong 
+Client        		|	Chowers (NPO) 
+Sponsor			|	None 
+Project manager	|	Yan Wong 
 
 
 #Monitoring and Evaluation 
