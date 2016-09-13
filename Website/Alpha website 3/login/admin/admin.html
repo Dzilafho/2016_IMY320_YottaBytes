@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Administration</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./bootstrap-3.3.4-dist/css/bootstrap.min.css">
+        <script type="text/javascript" src="js/angular.min.js"></script>   
+    </head>
+    <body>
+		<div style = "text-align: center" class="container center-block col-md-offset-4 ">
+				<img src="logo.png" width="380" alt="Website Logo" >
+		</div>
+		
+		<div class="container">
+			<center><h1>Add New User</h1></center>
+			
+			<form accept-charset="UTF-8" action="/Chowers_Site/REST/User/addUser"  id="signup-form" method="post"><div style="margin:0;padding:0;display:inline">
+				<h2>
+					Fill in user details
+				</h2>
+
+				<dl class="form-group"><dt class="input-label"><label>Username</label></dt><dd><input class="form-control" id="username" name="username" size="30" type="text" /><p class="note">This will be the username used to login</p></dd></dl>
+				<dl class="form-group"><dt class="input-label"><label>Email Address</label></dt><dd><input class="form-control" id="email" name="email" size="30" type="text" /><p class="note">The user's email address for contact.</p></dd></dl>
+				<dl class="form-group"><dt class="input-label"><label>First Name</label></dt><dd><input class="form-control" id="name" name="name" size="30" type="text" /><p class="note">The user's first name.</p></dd></dl>
+				<dl class="form-group"><dt class="input-label"><label>Last Name</label></dt><dd><input class="form-control" id="surname" name="surname" size="30" type="text" /><p class="note">The user's last name.</p></dd></dl>
+				<dl class="form-group"><dt class="input-label"><label>Password</label></dt><dd><input class="form-control" id="password" name="password" size="15" type="password" /><p class="note">The password to use when logging in.</p></dd></dl>
+				
+				<dl class="form-group"><dt class="input-label"><label>User Type</label></dt><dd><input type="radio" id="userType" name="userType" value="Player">Regular &emsp; &emsp; &emsp; &emsp; <input type="radio" name="userType" value="Admin">Administrator<br></dd></dl>
+				
+				<div class="container" style = "text-align: center">
+				<button type="submit" class="btn btn-primary" id="signup_button">Register User</button>
+				</div>
+                                                                 <br> 
+                                                                 <br> 
+			</form>
+		</div>
+            
+        <div class="container">
+			<center><h1>Add News</h1></center>
+			
+			<form accept-charset="UTF-8" action="/Practical_1/REST/Article/addArticle"  id="addnews-form" method="post"><div style="margin:0;padding:0;display:inline">
+				<h2>
+					Fill in news details
+				</h2>
+
+				<dl class="form-group"><dt class="input-label"><label>Article Name</label></dt><dd><input class="form-control" id="articlename" name="articlename" size="30" type="text" /><p class="note">This will be the username used to login</p></dd></dl>
+				<dl class="form-group"><dt class="input-label"><label>Headline</label></dt><dd><input class="form-control" id="headline" name="headline" size="30" type="text" /><p class="note">The user's email address for contact.</p></dd></dl>
+				<dl class="form-group"><dt class="input-label"><label>Article</label></dt><dd><input class="form-control" id="article" name="article" size="30" type="text" /><p class="note">The user's first name.</p></dd></dl>
+				
+				<div class="container" style = "text-align: center">
+				<button type="submit" class="btn btn-primary" id="signup_button">Add Article</button>
+				</div>
+                                                                 <br> 
+                                                                 <br> 
+			</form>
+		</div>
+            
+        <div class="container">
+			<center><h1>Add New Group</h1></center>
+			
+			<form accept-charset="UTF-8" action="/Practical_1/REST/Group/addGroup"  id="addgroup-form" method="post"><div style="margin:0;padding:0;display:inline">
+				<h2>
+					Fill in group details
+				</h2>
+
+				<dl class="form-group"><dt class="input-label"><label>Group Name</label></dt><dd><input class="form-control" id="groupname" name="groupname" size="30" type="text" /><p class="note">This will be the group's name.</p></dd></dl>
+			
+				
+				<div class="container" style = "text-align: center">
+				<button type="submit" class="btn btn-primary" id="signup_button">Create Group</button>
+				</div>
+                                                                 <br> 
+                                                                 <br> 
+			</form>
+		</div>
+            
+        <div class="container">
+			<center><h1>Add New File</h1></center>
+			
+			<form accept-charset="UTF-8" action="upload.php"  enctype="multipart/form-data" id="upload-form" method="post"><div style="margin:0;padding:0;display:inline">
+
+				<dl class="form-group"><dt class="input-label"><label>Select File</label></dt><dd><input class="form-control" id="file" name="file" size="30" type="file" /><p class="note">Choose the file you want to upload</p></dd></dl>
+				<dl class="form-group"><dt class="input-label"><label>Description</label></dt><dd><input class="form-control" id="fileDescription" name="fileDescription" size="30" type="text" /><p class="note">A short description of the file to be uploaded.</p></dd></dl>
+				
+				<div class="container" style = "text-align: center">
+                    <input type="submit" class="btn btn-primary" value="Upload File" id="upload_button" name="upload_button">
+				</div>
+                                                                 <br> 
+                                                                 <br> 
+			</form>
+		</div>
+            
+        <div class="container">
+            <br> 
+                                                                 <br> 
+			<center><h1>Add New Event</h1></center>
+			
+			                                                                 <br> 
+
+                                                                             <br> 
+
+            <div class="container" style = "text-align: center">
+				<button type="submit" class="btn btn-primary" id="event_button">Add New Event</button>
+            </div>
+                                                                 <br> 
+                                                                 <br> 
+            <br> 
+                                                                 <br> 
+		</div>
+		<!--<div class="container" style = "text-align: center">
+		  <div class="alert alert-success">
+		    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		    <strong>Yeay!</strong> The user was successfully added.
+		  </div>
+		  <div class="alert alert-warning">
+		    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		    <strong>Oops!</strong> Something went wrong. The user could not be added.
+		  </div>
+		</div>-->
+	</body>
+</html>

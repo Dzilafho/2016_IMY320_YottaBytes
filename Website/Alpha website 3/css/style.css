@@ -1,0 +1,69 @@
+/* ----------- Form styling in admin ----------------*/
+.form  {
+    margin-left:auto;
+    margin-right:auto;
+    background: #eeebec;
+    /*padding: 30px 30px 20px 30px;*/
+    box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+    font: 14px Arial, Helvetica, sans-serif;
+    color: #666;
+    border-radius: 10px;
+}
+
+label
+{
+    width: 180px;
+    text-align: right;
+	padding-right: 20px;
+	font-size: 20px;
+}
+
+img
+{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+
+img:hover
+{
+	-webkit-filter: grayscale(00%);
+	filter: grayscale(00%);
+}
+
+
+#login2
+{
+	font-size: 20px;
+}
+
+.navbar-custom .nav li#loginLink a
+{
+	color: #fed136;
+}
+
+.navbar-custom .nav li#loginLink a:hover
+{
+	color: #0f0;
+}
+
+
+
+#textarea {
+	border: 2px solid #fed136;
+	height: 150px;
+	width: 400px;
+}
+
+
+
+#check {
+	width: 30px;
+	height: 17px;
+	background: #fcfff4;
+}
+
+
+
+
