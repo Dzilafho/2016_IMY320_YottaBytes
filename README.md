@@ -35,5 +35,6 @@ Project manager	|	Yan Wong
 
 
 #Monitoring and Evaluation 
-•	The project is hosted and publicly accessible on this repository. <br />
+•	The project is hosted at http://chowers.netne.net/and publicly accessible from this website. <br />
+•	The project code is publicly accessible on this repository. <br />
 •	Major changes will be presented to the manager at the end of each phase. <br />
