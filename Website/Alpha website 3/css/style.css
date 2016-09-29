@@ -18,20 +18,6 @@ label
 	font-size: 20px;
 }
 
-img
-{
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-filter: blur(3px);
-	filter: blur(3px);
-}
-
-img:hover
-{
-	-webkit-filter: grayscale(00%);
-	filter: grayscale(00%);
-}
-
 
 #login2
 {
@@ -65,5 +51,20 @@ img:hover
 }
 
 
-
-
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 60%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
