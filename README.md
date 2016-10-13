@@ -35,6 +35,8 @@ Project manager	|	Yan Wong
 
 
 #Monitoring and Evaluation 
+•	Pleasure the following details to login, email: user@explorer.com password: Password. <br />
+•	The website has extra-limited functionality for members and managers only. <br />
 •	The project is hosted at http://chowers.netne.net and publicly accessible from this website. <br />
 •	The project code is publicly accessible on this repository. <br />
 •	Major changes will be presented to the manager at the end of each phase. <br />
